@@ -1,0 +1,19 @@
+{
+    "name": "rogger/xml",
+    "description": "Generador de Archivo XML de Documentos de Venta para envio a la SUNAT",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "arielcr/numero-a-letras": "dev-master",
+        "greenter/xmldsig": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "XMLSunat\\": "src/"
+        },
+        "files": [
+            "helpers/index.php"
+        ]
+    }
+}
